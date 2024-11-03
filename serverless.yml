@@ -1,11 +1,11 @@
-org: geraldocolchado
+org: stewartmaquera
 service: api-alumnos
 
 provider:
   name: aws
   runtime: python3.12
   iam:
-    role: arn:aws:iam::498917627164:role/LabRole
+    role: arn:aws:iam::630606600000:role/LabRole
 
 functions:
   listar:
